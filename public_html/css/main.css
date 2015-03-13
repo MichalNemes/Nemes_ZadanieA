@@ -360,9 +360,10 @@ h1.navbar-brand {
 }
 
 .caption-content h2 {
-    color: #fff;
+    color: #FFFFFF;
+	text-shadow: 1px 1px 45px rgba(0,0,0,1);
     font-size: 52px;
-    font-weight: 400;
+    font-weight: 450;
     margin-bottom: 25px;
     text-transform: uppercase;
 }
@@ -370,8 +371,8 @@ h1.navbar-brand {
 .caption-content > span {
     display: block;
     font-size: 24px;
+	text-shadow: 1px 1px 20px rgba(0,0,0,1);
     margin-bottom: 45px;
-    text-transform: capitalize;
 }
 
 .caption-content p {
