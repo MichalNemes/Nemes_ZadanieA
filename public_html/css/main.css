@@ -54,7 +54,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 main > section {
-    padding: 70px 0;
+    padding: 50px 0;
 }
 
 .btn {
@@ -279,9 +279,10 @@ main > section {
          -o-transition: all 0.8s ease 0s;
             transition: all 0.8s ease 0s;
 
-    background-color: rgba(0,0,0,.4);
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 6, 20,0.9);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.8);
     padding: 5px 0;
+    text-shadow: 1px 1px 15px rgba(0,0,0,1); 
 }
 
 #navigation.animated-header {
@@ -521,6 +522,11 @@ h1.navbar-brand {
     color: #fff;
     margin: 0 0 35px;
     text-transform: uppercase;
+}
+
+#about h4 {
+    color: #fff;
+    margin: 0 0 35px;
 }
 
 #about .welcome-block h3 {
