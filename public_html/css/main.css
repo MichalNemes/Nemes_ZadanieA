@@ -363,7 +363,7 @@ h1.navbar-brand {
 .caption-content h2 {
     color: #FFFFFF;
 	text-shadow: 1px 1px 45px rgba(0,0,0,1);
-    font-size: 52px;
+    font-size: 60px;
     font-weight: 450;
     margin-bottom: 25px;
     text-transform: uppercase;
@@ -371,7 +371,7 @@ h1.navbar-brand {
 
 .caption-content > span {
     display: block;
-    font-size: 24px;
+    font-size: 26px;
 	text-shadow: 1px 1px 20px rgba(0,0,0,1);
     margin-bottom: 45px;
 }
@@ -516,6 +516,7 @@ h1.navbar-brand {
 #about {
     background-color: #009EE3;
     color: #fff;
+
 }
 
 #about h3 {
@@ -621,6 +622,27 @@ h1.navbar-brand {
 	Portfolio
 ==================================================================*/
 
+#portfolio {
+    background-color:#009EE3;
+    color: #fff;
+}
+
+#portfolio h2 {
+    color: #fff;
+    margin: 0 0 35px;
+    text-transform: uppercase;
+}
+
+#portfolio .sec-title h2:after {
+    border-bottom: 1px solid #fff;
+    content: "";
+    display: block;
+    left: 45%;
+    bottom: 0;
+    position: absolute;
+    width: 115px;
+}
+
 .project-wrapper {
     margin: 0;
     padding: 0;
@@ -638,6 +660,8 @@ h1.navbar-brand {
     overflow: hidden;
     position: relative;
     width: 32%;
+    height: 250px;
+    box-shadow: 5px 5px 4px rgba(0, 6, 20, 0.4);
 }
 
 figcaption.mask {
@@ -727,228 +751,6 @@ ul.external li a:hover {
 .fancybox-title-inside-wrap {
     padding-top: 0;
 }
-
-/*=================================================================
-	Testimonials
-==================================================================*/
-
-
-#testimonials {
-    background-image: url(../img/parallax/testimonial.jpg);
-    padding: 0;
-    color: #fff;
-}
-
-#testimonials .sec-title h2:after {
-    border-bottom: 1px solid #fff;
-}
-
-#testimonials .overlay {
-    background-color: rgba(15,155,224, 0.78);
-    padding: 70px 0 40px;
-}
-
-.testimonial-item {
-    margin: 0 auto;
-    padding-bottom: 50px;
-    width: 64%;
-}
-
-.testimonial-item img {
-    border: 3px solid #fff;
-    border-radius: 50%;
-    display: inline-block;
-    height: auto;
-    max-width: 100px;
-}
-
-.testimonial-item > div {
-    line-height: 30px;
-    position: relative;
-}
-
-.testimonial-item > div:before {
-    background-image: url("../img/icons/quotes.png");
-    background-repeat: no-repeat;
-    bottom: 127px;
-    height: 33px;
-    left: -35px;
-    position: absolute;
-    width: 45px;
-}
-
-.testimonial-item > div:after {
-    background-image: url("../img/icons/quotes.png");
-    background-position: -58px 0;
-    background-repeat: no-repeat;
-    bottom: -50px;
-    height: 33px;
-    position: absolute;
-    right: 0;
-    width: 45px;
-}
-
-.testimonial-item > div > span {
-    display: inline-block;
-    font-weight: 700;
-    margin: 40px 0 30px;
-    text-transform: uppercase;
-}
-
-#testimonials .owl-controls.clickable {
-    margin-top: 20px;
-    text-align: center;
-}
-
-#testimonials .owl-buttons {
-    border: 2px solid #fff;
-    float: inherit;
-}
-
-#testimonials .owl-prev:hover,
-#testimonials .owl-next:hover {
-    color: #fff;
-}
-
-.price-table {
-    border: 1px solid #e3e3e3;
-}
-
-.price-table.featured {
-    -webkit-box-shadow: 0 4px 5px rgba(0,0,0,0.19);
-       -moz-box-shadow: 0 4px 5px rgba(0,0,0,0.19);
-            box-shadow: 0 4px 5px rgba(0,0,0,0.19);
-}
-
-.price-table > span {
-    color: #252525;
-    display: block;
-    font-size: 24px;
-    padding: 30px 0;
-    text-transform: uppercase;
-}
-
-.price-table .value {
-    background-color: #f8f8f8;
-    color: #727272;
-    padding: 20px 0;
-
-    -webkit-transition: all 0.7s ease 0s;
-       -moz-transition: all 0.7s ease 0s;
-        -ms-transition: all 0.7s ease 0s;
-         -o-transition: all 0.7s ease 0s;
-            transition: all 0.7s ease 0s;
-}
-
-.price-table.featured .value {
-    background-color: #009EE3;
-    color: #fff;
-}
-
-.price-table .value span {
-    display: inline-block;
-}
-
-.price-table .value span:first-child {
-    font-size: 32px;
-    line-height: 32px;
-}
-
-.price-table .value span:nth-child(2) {
-    font-size: 65px;
-    line-height: 65px;
-    margin-bottom: 25px;
-}
-
-.price-table .value span:last-child {
-    font-size: 16px;
-}
-
-.price-table ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-align: center;
-}
-
-.price-table ul li {
-    border-top: 1px solid #e3e3e3;
-    display: block;
-    padding: 25px 0;
-
-    -webkit-transition: all 0.7s ease 0s;
-       -moz-transition: all 0.7s ease 0s;
-        -ms-transition: all 0.7s ease 0s;
-         -o-transition: all 0.7s ease 0s;
-            transition: all 0.7s ease 0s;
-}
-
-.price-table ul li a {
-    display: block;
-    text-transform: uppercase;
-}
-
-.price-table.featured ul li:last-child,
-.price-table ul li:last-child:hover {
-    background-color: #009EE3;
-}
-
-.price-table.featured ul li:last-child a,
-.price-table ul li:last-child:hover a {
-    color: #fff;
-}
-
-
-/*=================================================================
-	Price
-==================================================================*/
-
-#social {
-    background-image: url(../img/slider/banner.jpg);
-    padding: 0;
-}
-
-#social .overlay {
-    background: url("../img/slide_bg.png") repeat scroll 0 0 transparent;
-    padding: 100px 0 120px;
-}
-
-.social-button {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-align: center;
-}
-
-.social-button li {
-    display: inline-block;
-}
-
-.social-button li:nth-child(2) {
-    margin: 0 75px;
-}
-
-.social-button li a {
-    border: 2px solid #fff;
-    border-radius: 50%;
-    color: #fff;
-    display: block;
-    height: 90px;
-    line-height: 96px;
-    width: 90px;
-    
-    -webkit-transition: all 0.2s ease 0s;
-       -moz-transition: all 0.2s ease 0s;
-        -ms-transition: all 0.2s ease 0s;
-         -o-transition: all 0.2s ease 0s;
-            transition: all 0.2s ease 0s;
-}
-
-.social-button li a:hover {
-    color: #008ECC;
-    border: 2px solid #008ECC;
-}
-
 
 /*=================================================================
 	Contact
